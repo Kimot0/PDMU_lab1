@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.example.lab1","c":"MaxMinJava","l":"max(int, int)","url":"max(int,int)"},{"p":"com.example.lab1","c":"MaxMinJava","l":"MaxMinJava()","url":"%3Cinit%3E()"},{"p":"com.example.lab1","c":"MaxMinJava","l":"min(int, int)","url":"min(int,int)"}]

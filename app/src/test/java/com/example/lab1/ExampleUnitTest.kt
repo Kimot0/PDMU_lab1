@@ -12,35 +12,35 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun firstMaxTest() {
-        assertEquals(5, MaxMin.max(1,5))
+        assertEquals(5, MaxMinJava.max(1,5))
     }
     @Test
     fun secondMaxTest() {
-        assertEquals(120, MaxMin.max(120,119))
+        assertEquals(120, MaxMinJava.max(120,119))
     }
     @Test
     fun thirdMaxTest() {
-        assertEquals(17, MaxMin.max(17,5))
+        assertEquals(17, MaxMinJava.max(17,5))
     }
     @Test
     fun fourthMaxTest() {
-        assertEquals(1, MaxMin.max(1,0))
+        assertEquals(1, MaxMinJava.max(1,0))
     }
     @Test
     fun firstMinTest() {
-        assertEquals(1, MaxMin.min(1,5))
+        assertEquals(1, MaxMinJava.min(1,5))
     }
     @Test
     fun secondMinTest() {
-        assertEquals(119, MaxMin.min(120,119))
+        assertEquals(119, MaxMinJava.min(120,119))
     }
     @Test
     fun thirdMinTest(){
-        assertEquals(5, MaxMin.min(17,5))
+        assertEquals(5, MaxMinJava.min(17,5))
     }
     @Test
     fun fourthMinTest() {
-        assertEquals(0, MaxMin.min(1,0))
+        assertEquals(0, MaxMinJava.min(1,0))
     }
 
 }
